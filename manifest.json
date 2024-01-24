@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Website Comment Chrome Extension",
+  "version": "1.0",
+  "description": "A Chrome extension for techies and product managers that gives product quotes, tips, and techniques.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "web_accessible_resources": [
+    "images/background.png"
+  ]
+}
